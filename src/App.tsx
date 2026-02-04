@@ -914,6 +914,7 @@ function ContactForm() {
             href="https://wa.me/919110355412?text=Hi,%20I%20want%20to%20sell%20scrap"
             target="_blank"
             rel="noopener noreferrer"
+            title="Contact us on WhatsApp"
             className="py-4 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2"
           >
             <WhatsAppIcon />
