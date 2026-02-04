@@ -1083,13 +1083,8 @@ function HeroSection() {
   );
 
   return (
-    <section
-      id="home"
-      ref={ref}
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
-    >
-      {/* Animated Background */}
-      <div className="absolute inset-0 z-0">
+    <section id="home" ref={ref} className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      <header className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
           alt="Metal Recycling"
@@ -1098,10 +1093,9 @@ function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
         <ParticleBackground />
-      </div>
+      </header>
 
-      {/* Hero Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className={cn("fade-in-up", isVisible && "visible")}>
             {/* Badge */}
@@ -1229,14 +1223,13 @@ function HeroSection() {
             </TiltCard>
           </div>
         </div>
-      </div>
+      </main>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block">
+      <aside className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block">
         <div className="w-6 h-10 border-2 border-gray-500/50 rounded-full flex justify-center hover:border-emerald-500/50 transition-colors cursor-pointer">
           <div className="w-1 h-3 bg-emerald-500 rounded-full mt-2 animate-bounce" />
         </div>
-      </div>
+      </aside>
     </section>
   );
 }
