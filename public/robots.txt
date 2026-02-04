@@ -1,22 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://abbrometals.in/sitemap.xml
-
-# Crawl-delay for better server performance
-Crawl-delay: 1
-
-# Block access to admin or sensitive areas (if any in future)
-Disallow: /admin/
-Disallow: /private/
-
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
