@@ -1,0 +1,28 @@
+{
+  "name": "AbbroMetals - India's #1 Scrap Buyer",
+  "short_name": "AbbroMetals",
+  "description": "Sell your scrap metal, e-waste & appliances online anywhere in India. Best prices, instant payment, free pickup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/AndroidIcon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/SplashIcon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "en-IN",
+  "scope": "/",
+  "prefer_related_applications": false
+}
