@@ -1959,9 +1959,10 @@ function Footer() {
 
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm">
-              © 2024 AbbroMetals. All rights reserved.
-            </p>
+            <div className="flex flex-col md:flex-row items-center gap-4 text-gray-500 text-sm">
+              <p>© 2024 AbbroMetals. All rights reserved.</p>
+              <p>For feedback & copyright issues: <a href="https://github.com/rafi-ud-deen" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300 transition-colors">@rafi-ud-deen</a></p>
+            </div>
             <div className="flex gap-6 text-sm">
               <button
                 onClick={() => setShowPrivacy(true)}
